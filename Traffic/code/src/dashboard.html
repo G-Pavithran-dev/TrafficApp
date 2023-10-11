@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="/code/css/dashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body style="background-color: whitesmoke">
+        <header class="p-3 mb-auto border-bottom text-bg-info">
+        <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="afterlogin.html" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <i class="bi bi-stoplights" style="font-size: 35px;"></i>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Scores</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Customer</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
+            </ul>
+
+            <div class="dropdown text-end">
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="text-center mt-5 d-flex flex-column justify-content-center align-items-center">
+        
+    <div class="w-100 d-flex justify-content-evenly align-items-center" style="font-size: 1.2rem; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <p class="btn btn-warning"><strong>Name : Nivash P</strong></p>
+        <p class="btn btn-warning"><strong>Vehicle No. : TN 88 AB 2152</strong></p>
+    </div>
+    <div class="w-100 mx-auto d-flex flex-column align-items-center">
+            <div class="col-lg-4 d-flex flex-column align-items-center scroll_bar">
+        <div class="radial-progress-bar">
+            <div class="radial-progress-bar__percentages">5.8</div>
+            <div class="radial-progress-bar__curve">
+                <div class="radial-progress-bar__half radial-progress-bar__half--firsto"></div>
+                <div class="radial-progress-bar__half radial-progress-bar__half--second"></div>
+            </div>
+        </div>
+
+        <h2 class="fw-normal">Overall Score</h2>
+        <p>The overall score, which combines these individual components, provides a holistic view of an individual's or organization's behavior on the road.</p>
+        <p><a class="btn btn-secondary" href="#" onclick="alert('No Penalities')">View details »</a></p>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-around">
+        <div class="col-lg-12 d-flex align-items-center">
+      <div class="col-lg-4 d-flex flex-column align-items-center scroll_bar">
+        <div class="radial-progress-bar">
+            <div class="radial-progress-bar__percentages">7.5</div>
+            <div class="radial-progress-bar__curve">
+                <div class="radial-progress-bar__half radial-progress-bar__half--first1"></div>
+                <div class="radial-progress-bar__half radial-progress-bar__half--second"></div>
+            </div>
+        </div>
+
+        <h2 class="fw-normal">Parking Score</h2>
+        <p>A perfect parking score signifies the epitome of convenience and satisfaction for drivers.</p>
+        <p><a class="btn btn-secondary" href="https://www.google.com/maps/@11.1093443,77.3382926,3a,25.9y,202.44h,82.46t/data=!3m6!1e1!3m4!1s51wnNthpTJFwT9NxFFrycg!2e0!7i13312!8i6656?entry=ttu">View details »</a></p>
+      </div>
+      <div class="col-lg-4 d-flex flex-column align-items-center scroll_bar">
+        <div class="radial-progress-bar">
+            <div class="radial-progress-bar__percentages">5.0</div>
+            <div class="radial-progress-bar__curve">
+                <div class="radial-progress-bar__half radial-progress-bar__half--first2"></div>
+                <div class="radial-progress-bar__half radial-progress-bar__half--second2"></div>
+            </div>
+        </div>
+
+        <h2 class="fw-normal">Speed control</h2>
+        <p>A perfect speed control reflects an ideal balance between smooth traffic flow and adherence to speed limits.</p>
+        <p><a class="btn btn-secondary" href="https://www.zpeed.in/">View details »</a></p>
+      </div>
+      <div class="col-lg-4 d-flex flex-column align-items-center scroll_bar">
+        <div class="radial-progress-bar">
+            <div class="radial-progress-bar__percentages">5.0</div>
+            <div class="radial-progress-bar__curve">
+                <div class="radial-progress-bar__half radial-progress-bar__half--first3"></div>
+                <div class="radial-progress-bar__half radial-progress-bar__half--second"></div>
+            </div>
+        </div>
+
+        <h2 class="fw-normal">Traffic adherence</h2>
+        <p>A perfect traffic adherence score reflects exemplary compliance with road laws and signals.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
+    </div>
+    <div class = "d-flex justify-content-center" style="width: 95rem;">
+    <a href = "https://www.google.com/android/find/"><button class="btn btn-warning py-2" style="font-size: 1.5rem; margin-top: 0rem;">Locate</button></a></div>
+    </div>
+
+    </main>
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
